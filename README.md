@@ -45,17 +45,17 @@ User uploads PDF -> Text extraction + cleaning -> Hybrid recursive chunking -> V
    ```
 4. Start backend:
     ```bash
-        cd backend
-        uvicorn main:app --reload
+    cd backend
+    uvicorn main:app --reload
     ```
 5. Install frontend dependencies:
     ```bash
-        cd frontend
-        npm install
+    cd frontend
+    npm install
     ```
 6. Start frontend:
     ```bash
-        npm run dev
+    npm run dev
     ```
 ## Usage
 
