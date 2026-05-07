@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.env
+
+chroma_db/
+processed/
+
+node_modules/
+frontend/dist/
+
+.DS_Store
