@@ -17,25 +17,7 @@ Built with LM Studio, ChromaDB, FastAPI, and React.
 -  100% offline and private
 
 ## Architecture
-User uploads PDF
-↓
-Text extraction + cleaning
-↓
-Hybrid recursive chunking
-↓
-Vector embeddings
-↓
-ChromaDB storage
-↓
-User asks question
-↓
-Semantic retrieval
-↓
-Context construction
-↓
-Local LLM generation
-↓
-Grounded answer with sources
+User uploads PDF -> Text extraction + cleaning -> Hybrid recursive chunking -> Vector embeddings -> ChromaDB storage -> User asks question -> Semantic retrieval -> Context construction -> Local LLM generation -> Grounded answer with sources
 
 
 ## Tech Stack
